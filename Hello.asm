@@ -24,8 +24,8 @@ _main:
     
     ;destroy the stack
     
-    pop ebp
     mov esp,ebp
+    pop ebp
     
     ret
 
